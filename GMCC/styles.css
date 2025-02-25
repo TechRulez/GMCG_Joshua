@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+ }
+ header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+ }
+ .logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+ }
+ .nav-links {
+    list-style: none;
+    display: flex;
+ }
+ .nav-links li {
+    margin: 0 1rem;
+ }
+ .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+ }
+ main {
+    padding: 2rem;
+ }
+ #hero {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+ }
+ #hero h2 {
+    font-size: 2.5rem;
+ }
+ #hero p {
+    font-size: 1.2rem;
+ }
+ .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007BFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+ }
+ .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+ }
+ section {
+    margin-bottom: 2rem;
+ }
+ .charity-list, .involvement-options {
+    display: flex;
+    justify-content: space-around;
+ }
+ .charity, .option {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .charity h3, .option h3 {
+    margin-top: 0;
+ }
+ #donation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+ }
+ #donation-form label {
+    margin-bottom: 0.5rem;
+ }
+ #donation-form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+ }
